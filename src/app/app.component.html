@@ -1,3 +1,18 @@
-<h1>
-  {{title}}
-</h1>
+<table border="1">
+  <tr>
+    <td>'' | safeNumber</td>
+    <td>{{'' | safeNumber}}</td>
+  </tr>
+
+  <tr>
+    <td>{{value}} | safeNumber</td>
+    <td>{{value | safeNumber}}</td>
+  </tr>
+
+  <tr>
+    <td>{{value}} | safeCurrency:'USD':true:'4.2-2'</td>
+    <td>{{value | safeCurrency:'USD':true:'4.2-2'}}</td>
+  </tr>
+</table>
+
+
